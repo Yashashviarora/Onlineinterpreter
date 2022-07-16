@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,200&family=Rubik:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="game.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@1,600&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+<title>
+     GAME
+</title>
+</head>
+<body>
+    <div id="popup">
+        <p>YOUR GAME STOP BECAUSE YOU HIT SCREEN MORE THAN 3 TIMES</p>
+    </div>
+    <div class="overlay" onclick="tostop()"></div>
+    <div class="header">
+        <div id="BTN" onclick="go();start()" >START</div>
+        <div class="TOTAL">
+            <p>score:</p>
+            <p id="inc">0</p>
+        </div>
+    </div>
+    
+    <div style="font-size:80px ;"  onclick="sMILE(0); disappear(0)"><p class="smile ">&#128521;</p></div>
+    <div style="font-size:80px ;"  onclick="sMILE(1); disappear(1) "><p class="smile ">&#128522;</p></div>
+    <div style="font-size:80px ;"  onclick="sMILE(2); disappear(2)"><p class="smile ">&#128536;</p></div>
+    <div style="font-size:80px ;"  onclick="sMILE(3); disappear(3)"><p class="smile ">&#128578;</p></div>
+    <div style="font-size:80px ;"  onclick="sMILE(4); disappear(4)"><p class="smile ">&#128525;</p></div>
+    <div style="font-size:80px ;"  onclick="sMILE(5); disappear(5)"><p class="smile ">&#128518;</p></div>
+    
+    <div class="footer">
+    <div id="END" onmouseover="setTimeout(end,1000)" onclick="CLOSE()">END</div>
+  
+</div>
+   <script src="game.js"></script>
+</body>
+</html>

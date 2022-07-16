@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@1,200&family=Rubik:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="online.css">
+<title>
+     Online Interpreter
+    </title>
+    </head>
+    <body>
+        <div class="header">
+            <img src="https://www.coffeecup.com/images/html-editor/html-editor-app-logo.png">
+            <div class="color-changer">
+                <span class="btn" id="white" onclick="changebg('white')"></span>
+                <span class="btn" id="peach" onclick="changebg('rgb(214, 169, 169)')"></span>
+                <span class="btn" id="voilet" onclick="changebg('rgb(91, 44, 91)')"></span>
+                <span class="btn" id="DarkGray" onclick="changebg('rgb(32, 26, 26)')"></span>
+                <span class="btn" id="pink" onclick="changebg('rgb(255, 51, 153)')"></span>
+                <span class="btn" id="blue" onclick="changebg('rgb(51, 102, 204)')"></span>
+            </div>
+        </div>
+        <div><marquee>WELCOME!!!!!!! TO ONLINE INTERPRETER</marquee></div>
+        <div class="flex">
+            <div class="INPUT IN">
+                  <textarea class="TXT">
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Page Title</title>
+  </head>
+  <body>
+
+  </body>
+  </html>
+                
+               </textarea>
+                    <button type="button" class="BTN" onclick="RUN()">run code</button>
+                </div>    
+                <div class="OUTPUT IN"></div>
+
+        </div>
+        <script src="online.js"></script>
+    </body>
+</html>
